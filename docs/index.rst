@@ -12,24 +12,6 @@ Welcome to Test_CodeRace's documentation!
 
    ./src/testing
 
-.. toctree::
-   :maxdepth: 1
-   :caption: ECU Requirement
-
-   ./src/ECU_Requirement.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: ECU Requirement TEST
-
-   ./src/ECUuu_Requirement.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: ECU Requirement TESTfdfds
-
-   ./src/ddECUuu_Requiremfđent.rst
-
 Indices and tables
 ==================
 
