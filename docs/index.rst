@@ -15,24 +15,11 @@ Welcome to Test_CodeRace's documentation!
 .. toctree::
    :maxdepth: 1
    :caption: ECU Requirement
-
-   ./src/ECU_Requirementr.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: ECU Requirement 2
-
-   ./src/ECU_Requirementr1.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: ECU Requirement 3
-
    ./src/ECU_Requirement.rst
+
 
 Indices and tables
 ==================
-
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
