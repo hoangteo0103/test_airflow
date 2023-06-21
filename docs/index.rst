@@ -3,27 +3,9 @@ Welcome to OnePlusTwo_CodeRace's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: ECU_Requirement
+   :caption: Content
 
-   ./src/ECU_Requirement.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: System Requirements
-
-   /src/requirements/PartitionManager/system_requirements.rst
-   
-.. toctree::
-   :maxdepth: 1
-   :caption: Detailed Software Design
-
-   /src/design/design.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Test Executions  
-    
-   /src/tests/TestExecution/Testrum.rst
+   ./src/testing
 
 Indices and tables
 ==================
