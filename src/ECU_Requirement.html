@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECU_Requirement &mdash; CodeRace  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/assets/jsonview.bundle.js"></script>
+        <script src="../_static/assets/jsonview_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Testing" href="testing.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            CodeRace
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ECU Requirement Demo</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ECU_Requirement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general-overview-document-scope">General Overview / Document Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-scope">Document Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-specific-glossary">Document Specific Glossary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ecu-1st-requirement">ECU 1st Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-non-functional-requirements">System Non Functional Requirements</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">CodeRace</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">ECU_Requirement</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/src/ECU_Requirement.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="ecu-requirement">
+<h1>ECU_Requirement<a class="headerlink" href="#ecu-requirement" title="Permalink to this heading"></a></h1>
+<section id="general-overview-document-scope">
+<h2>General Overview / Document Scope<a class="headerlink" href="#general-overview-document-scope" title="Permalink to this heading"></a></h2>
+</section>
+<section id="document-scope">
+<h2>Document Scope<a class="headerlink" href="#document-scope" title="Permalink to this heading"></a></h2>
+<div class="need_container docutils container" id="SNCB-7a40dffd">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_none needs_type_sw_req docutils align-default" id="629016">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Software Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">PUT BELOW A FIRST DESCRIPTION OF THE SCOPE FOR SOFTWARE REQUIREMENT SPECIFICATION</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#629016" title="629016">629016</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_artifact_type_demo"><span class="needs_label">artifact_type_demo: </span><span class="needs_data">Information</span></span></div>
+</span></span></div>
+<div class="line"><span></span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><div class="line-block">
+<div class="line">&lt;put below a first description of the scope for ECU requirement
+specification&gt;</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="document-specific-glossary">
+<h2>Document Specific Glossary<a class="headerlink" href="#document-specific-glossary" title="Permalink to this heading"></a></h2>
+<div class="need_container docutils container" id="SNCB-1b354fd2">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_none needs_type_sw_req docutils align-default" id="629013">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Software Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">PUT BELOW A DEFINITION OF FIRST GLOSSARY SPECIFIC TERMS</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#629013" title="629013">629013</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_artifact_type_demo"><span class="needs_label">artifact_type_demo: </span><span class="needs_data">Information</span></span></div>
+</span></span></div>
+<div class="line"><span></span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><div class="line-block">
+<div class="line">&lt;put below a definition of first glossary specific terms&gt;</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="system-requirements">
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this heading"></a></h2>
+<div class="need_container docutils container" id="SNCB-4879a487">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_none needs_type_sw_req docutils align-default" id="629017">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Software Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">INFOS RELEVANT FOR THE COMPLETE CHAPTER</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#629017" title="629017">629017</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_artifact_type_demo"><span class="needs_label">artifact_type_demo: </span><span class="needs_data">Information</span></span></div>
+</span></span></div>
+<div class="line"><span></span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><div class="line-block">
+<div class="line">&lt;infos relevant for the complete chapter&gt;</div>
+<div class="line">Note to the template:</div>
+<div class="line">- the example requirements below are independent of each other and
+are showing the different possibilities of the requirements
+structure</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="ecu-1st-requirement">
+<h2>ECU 1st Requirement<a class="headerlink" href="#ecu-1st-requirement" title="Permalink to this heading"></a></h2>
+<div class="need_container docutils container" id="SNCB-03837ebb">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_none needs_type_sw_req docutils align-default" id="629015">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Software Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">DESCRIPTION OF THE REQUIREMENT IN REQUIREMENTS LANGUAGE</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#629015" title="629015">629015</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_status"><span class="needs_label">status: </span><span class="needs_data">New/Changed</span></span></div>
+<div class="line"><span class="needs_artifact_type_demo"><span class="needs_label">artifact_type_demo: </span><span class="needs_data">MO_FUNC_REQ</span></span></div>
+<div class="line"><span class="needs_safety_level"><span class="needs_label">safety_level: </span><span class="needs_data">ASIL A</span></span></div>
+<div class="line"><span class="needs_crq_demo"><span class="needs_label">crq_demo: </span><span class="needs_data">TH2356</span></span></div>
+</span></span></div>
+<div class="line"><span><div class="line">child needs: <span class="parent_needs"><span><a class="reference internal" href="#VC_19A77" title="629015">VC_19A77</a></span></span></div>
+</span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><div class="line-block">
+<div class="line">&lt;description of the requirement in requirements language&gt;</div>
+<div class="line"><strong>VEHICLE_SYSTEM_BEHAVIOUR</strong></div>
+<div class="line">&lt;Optional: description of desired vehicle behaviour (“development
+target”)&gt;</div>
+<div class="line"><a href="#id1"><span class="problematic" id="id2">**</span></a>CONSTRAINT **</div>
+<div class="line">&lt;Optional: constraints on the solution space for the requirement&gt;</div>
+<div class="line"><a href="#id3"><span class="problematic" id="id4">**</span></a>IMPACT **</div>
+<div class="line">&lt;Optional: description of possible cross-functional impact of the
+requirement, or impact on other components&gt;</div>
+<div class="line"><strong>INFO</strong></div>
+<div class="line">&lt;Optional: additional informations about the requirement:</div>
+<div class="line">- know-how</div>
+<div class="line">- background</div>
+<div class="line">- HW dependencies related to the system requirement</div>
+<div class="line">- internal signals</div>
+<div class="line">- etc&gt;</div>
+<div class="line"><strong>ASSUMPTION</strong></div>
+<div class="line">&lt;Optional: assumptions on the requirement&gt;</div>
+</div>
+<div class="need_container docutils container" id="SNCB-db2dae5f">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_blue needs_type_verify docutils align-default" id="VC_19A77">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Verification Criteria</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">VERIFY629015</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#VC_19A77" title="VC_19A77">VC_19A77</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_style"><span class="needs_label">style: </span><span class="needs_data">blue</span></span></div>
+</span></span></div>
+<div class="line"><span><div class="line">parent needs: <span class="parent_needs"><span><a class="reference internal" href="#629015" title="VC_19A77">629015</a></span></span></div>
+</span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><p>Test Environment:
+Test Bench/Lab-car with hardware setup</p>
+<p>Success Criteria: Verify whether the signal value is correct or not</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="system-non-functional-requirements">
+<h2>System Non Functional Requirements<a class="headerlink" href="#system-non-functional-requirements" title="Permalink to this heading"></a></h2>
+<div class="need_container docutils container" id="SNCB-94fbb732">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_none needs_type_sw_req docutils align-default" id="629014">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Software Requirement</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">DESCRIPTION OF THE NON FUNCTIONAL REQUIREMENT IN REQUIREMENTS LANGUAGE</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#629014" title="629014">629014</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_status"><span class="needs_label">status: </span><span class="needs_data">New/Changed</span></span></div>
+<div class="line"><span class="needs_artifact_type_demo"><span class="needs_label">artifact_type_demo: </span><span class="needs_data">MO_NON_FUNC_REQ</span></span></div>
+<div class="line"><span class="needs_safety_level"><span class="needs_label">safety_level: </span><span class="needs_data">ASIL B</span></span></div>
+<div class="line"><span class="needs_crq_demo"><span class="needs_label">crq_demo: </span><span class="needs_data">TH2356</span></span></div>
+</span></span></div>
+<div class="line"><span><div class="line">child needs: <span class="parent_needs"><span><a class="reference internal" href="#VC_45F6E" title="629014">VC_45F6E</a></span></span></div>
+</span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><div class="line-block">
+<div class="line">&lt;description of the non functional requirement in requirements
+language&gt;</div>
+</div>
+<div class="need_container docutils container" id="SNCB-e63d6b7f">
+<table class="need needs_grid_simple needs_layout_clean rtd-exclude-wy-table no-sphinx-material-strip needs_style_blue needs_type_verify docutils align-default" id="VC_45F6E">
+<tbody>
+<tr class="need head row-odd"><td class="need head"><div class="needs_head line-block">
+<div class="line"><span><span class="needs_type_name"><span class="needs_data">Verification Criteria</span></span>: </span><strong><span><span class="needs_title"><span class="needs_data">VERIFY629014</span></span></span></strong><span> <span class="needs-id"><a class="reference internal" href="#VC_45F6E" title="VC_45F6E">VC_45F6E</a></span>  <span class="needs needs_collapse" id="target__show__meta"><span class="needs collapsed"><span><img alt="../_images/arrow-down-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-down-circle.svg" width="17px" /></span></span><span class="needs visible"><span><img alt="../_images/arrow-right-circle.svg" class="sn_collapse_img no-scaled-link" src="../_images/arrow-right-circle.svg" width="17px" /></span></span></span> </span></div>
+</div>
+</td>
+</tr>
+<tr class="need meta row-even"><td class="need meta"><div class="needs_meta line-block">
+<div class="line"><span><span><div class="line"><span class="needs_style"><span class="needs_label">style: </span><span class="needs_data">blue</span></span></div>
+</span></span></div>
+<div class="line"><span><div class="line">parent needs: <span class="parent_needs"><span><a class="reference internal" href="#629014" title="VC_45F6E">629014</a></span></span></div>
+</span></div>
+</div>
+</td>
+</tr>
+<tr class="need content row-odd"><td class="need content" colspan="1"><p>Non Func Test Environment:
+Test Bench/Lab-car with hardware setup</p>
+<p>Success Criteria: Verify whether the signal value is correct or not</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="testing.html" class="btn btn-neutral float-left" title="Testing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, BGSV.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
